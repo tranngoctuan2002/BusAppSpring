@@ -1,0 +1,36 @@
+div.navigation{
+    border: 1px solid gray;
+    box-shadow: 2px 0px #9e9e9e;
+    position: fixed;
+    overflow: auto;
+    height: 100%;
+    width:15%;
+}
+
+div.navigation li:not(:first-child) a{
+    margin: 5px 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+
+div.navigation li:not(:first-child):hover a{
+    background: #96bbff55;
+    color: #0011ff;
+}
+
+div.navigation a:link{
+    color: black;
+}
+
+div.navigation li:last-child {
+    position:absolute;
+    bottom:0;
+    right:0;
+    left:0;
+}
+
+div.content{
+    margin-left: 15%;
+}
